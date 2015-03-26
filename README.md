@@ -13,11 +13,8 @@ Install through [Bower](http://bower.io/)
 bower install dapper.css
 ```
 
-Install through [npm](https://www.npmjs.com/)
-
-```
-npm install --save-dev dapper.css
-```
+~~Install through [npm](https://www.npmjs.com/)~~
+(currently having troubles with pushing to npm :cry:)
 
 Clone/fork the repo through git
 
