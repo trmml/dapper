@@ -28,27 +28,23 @@ or [download the zip](https://github.com/probablyjosh/dapper/archive/master.zip)
 Usage
 =====
 
-Include dapper.css in your HTML
+Include dapper.css in your HTML and then wrap your blog post or whatever
+in divs or something. Make sure to apply the `.dapper` class to them.
+Use the `#content` ID if you're writing a nice paragraph.
 
 ```html
 <head>
   <link rel="stylesheet" href="path/to/dapper.css">
 </head>
-```
-
-and then wrap your blog post or whatever
-in divs or something. Make sure to apply the
-`.dapper` class to them. Use the `#content`
-ID if you're writing a nice paragraph.
-
-```html
-<div class="dapper">
-  <h1>Why I Need More Sleep</h1>
-  <h2>and why that'll never happen</h2>
-  <p id="content">
-  In animals, sleep is a naturally recurring state characterized by altered consciousness...
-  </p>
-</div>
+<body>
+  <div class="dapper">
+    <h1>Why I Need More Sleep</h1>
+    <h2>and why that'll never happen</h2>
+    <p id="content">
+    In animals, sleep is a naturally recurring state characterized by altered consciousness...
+    </p>
+  </div>
+</body>
 ```
 
 License
