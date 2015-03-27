@@ -34,4 +34,14 @@ body {
     .dapper p.content em {
       font-weight: 400; }
   .dapper footer {
-    margin: 3% 0 3%; }
+    margin: 5% 0 5%; }
+    .dapper footer ul {
+      list-style-type: none;
+      padding: 0; }
+      .dapper footer ul li a {
+        color: inherit;
+        text-decoration: none; }
+        .dapper footer ul li a:hover {
+          text-decoration: underline; }
+      .dapper footer ul li .fa {
+        margin: 1%; }
