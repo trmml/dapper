@@ -1,0 +1,3 @@
+[submodule "dapper"]
+	path = dapper
+	url = https://github.com/probablyjosh/dapper
