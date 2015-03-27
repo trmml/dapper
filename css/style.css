@@ -1,24 +1,29 @@
-@import url(http://brick.a.ssl.fastly.net/Noto+Serif:400,400i,700);
-@import url(http://brick.a.ssl.fastly.net/Andada:700,700i);
+@import url(http://brick.a.ssl.fastly.net/Source+Serif+Pro:400,400i,700);
+@import url(http://brick.a.ssl.fastly.net/Playfair+Display:700,700i);
 body {
   background: white;
-  max-width: 80%;
-  margin: auto 20%; }
+  max-width: 95%;
+  margin: auto 15%; }
 
 .dapper {
-  font-family: "Noto Serif", Helvetica, sans-serif; }
+  font-family: "Source Serif Pro", Helvetica, sans-serif;
+  color: black;
+  font-size: 12pt;
+  line-height: 150%; }
   .dapper h1, .dapper h2 {
-    font-size: 2em;
+    line-height: 150%;
     text-align: center;
-    font-family: "Andada", Helvetica, sans-serif;
+    font-family: "Playfair Display", Helvetica, sans-serif;
     font-weight: 700; }
   .dapper h1 {
-    margin: 5% 0 1% 0; }
+    margin: 5% 0 1% 0;
+    font-size: 2em; }
   .dapper h2 {
     margin: 0 0 3% 0;
+    font-size: 1.6em;
     font-style: italic; }
   .dapper blockquote {
-    font-style: italic;
+    line-height: 155%;
     margin: 3%;
     border-radius: 0.3%;
     padding: 3%;
@@ -26,13 +31,10 @@ body {
     color: white; }
     .dapper blockquote .author {
       font-weight: 700; }
-  .dapper p.content {
-    color: black;
-    font-size: 12pt; }
-    .dapper p.content strong {
-      font-weight: 700; }
-    .dapper p.content em {
-      font-weight: 400; }
+  .dapper strong {
+    font-weight: 700; }
+  .dapper em {
+    font-weight: 400; }
   .dapper footer {
     margin: 5% 0 5%; }
     .dapper footer ul {
