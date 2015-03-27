@@ -1,7 +1,7 @@
 dapper
 ======
 
-Simply Sexy Styling, and only 706 bytes minified. Recommended for use with a blog post
+Simply Sexy Styling, and only 706 bytes. Recommended for use with a blog post
 or something along those lines.
 
 Download/Install

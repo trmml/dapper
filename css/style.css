@@ -1,9 +1,9 @@
+@import url(http://brick.a.ssl.fastly.net/Playfair+Display:700,700i);
 @import url(http://brick.a.ssl.fastly.net/Noto+Serif:400,400i,700);
-@import url(http://brick.a.ssl.fastly.net/Andada:700,700i);
 body {
   background: white;
   max-width: 95%;
-  margin: auto 15%; }
+  margin: auto 12%; }
 
 .dapper {
   font-family: "Noto Serif", Helvetica, sans-serif;
@@ -13,7 +13,7 @@ body {
   .dapper h1, .dapper h2 {
     line-height: 150%;
     text-align: center;
-    font-family: "Andada", Helvetica, sans-serif;
+    font-family: "Playfair Display", Helvetica, sans-serif;
     font-weight: 700; }
   .dapper h1 {
     margin: 5% 0 1% 0;
@@ -31,6 +31,8 @@ body {
     color: white; }
     .dapper blockquote .author {
       font-weight: 700; }
+  .dapper li {
+    margin: 1%; }
   .dapper strong {
     font-weight: 700; }
   .dapper em {
