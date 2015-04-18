@@ -38,7 +38,7 @@ Use the `#content` ID if you're writing a nice paragraph.
     <h1>Why I Need More Sleep</h1>
     <h2>and why that'll never happen</h2>
     <p id="content">
-    In animals, sleep is a naturally recurring state characterized by altered consciousness...
+      In animals, sleep is a naturally recurring state characterized by altered consciousness...
     </p>
   </div>
 </body>
