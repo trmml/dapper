@@ -25,8 +25,7 @@ Usage
 =====
 
 Include dapper.css in your HTML and then wrap your blog post or whatever
-in divs or something. Make sure to apply the `.dapper` class to them.
-Use the `#content` ID if you're writing a nice paragraph.
+in divs or something. Make sure to apply the `dapper` class to them.
 
 ```html
 <head>
@@ -36,7 +35,7 @@ Use the `#content` ID if you're writing a nice paragraph.
   <div class="dapper">
     <h1>Why I Need More Sleep</h1>
     <h2>and why that'll never happen</h2>
-    <p id="content">
+    <p>
       In animals, sleep is a naturally recurring state characterized by altered consciousness...
     </p>
   </div>
