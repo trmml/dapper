@@ -1,12 +1,20 @@
 @import 'modules/all'
 @import 'modules/variables'
 
+@media (max-width: 750px)
+  body
+    margin: 10% !important
+
+@media (max-width: 600px)
+  body
+    margin: 4% !important
+
 body
   background: $background-color
-  max-width: 95%
-  margin: auto 12%
+  margin: auto 20%
 
 .dapper
+  max-width: 95%
   font-family: $font-stack
   color: $primary-color
   font-size: 12pt
@@ -27,7 +35,7 @@ body
     line-height: 155%
     margin: 3%
     border-radius: .3%
-    padding: 3%
+    padding: 4%
     background: lighten(invert($background-color), 20%)
     color: invert($primary-color)
     .author
@@ -38,7 +46,8 @@ body
     font-weight: 700
   em
     font-weight: 400
-
+  p
+    text-align: justify
   footer
     margin: 5% 0 5%
     ul

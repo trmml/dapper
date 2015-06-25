@@ -1,11 +1,17 @@
 @import url(http://brick.a.ssl.fastly.net/Playfair+Display:700,700i);
 @import url(http://brick.a.ssl.fastly.net/Noto+Serif:400,400i,700);
+@media (max-width: 750px) {
+  body {
+    margin: 10% !important; } }
+@media (max-width: 600px) {
+  body {
+    margin: 4% !important; } }
 body {
   background: white;
-  max-width: 95%;
-  margin: auto 12%; }
+  margin: auto 20%; }
 
 .dapper {
+  max-width: 95%;
   font-family: "Noto Serif", Helvetica, sans-serif;
   color: black;
   font-size: 12pt;
@@ -26,7 +32,7 @@ body {
     line-height: 155%;
     margin: 3%;
     border-radius: 0.3%;
-    padding: 3%;
+    padding: 4%;
     background: #333333;
     color: white; }
     .dapper blockquote .author {
@@ -37,6 +43,8 @@ body {
     font-weight: 700; }
   .dapper em {
     font-weight: 400; }
+  .dapper p {
+    text-align: justify; }
   .dapper footer {
     margin: 5% 0 5%; }
     .dapper footer ul {
