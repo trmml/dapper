@@ -1,7 +1,7 @@
 dapper
 ======
 
-Make your blog post look great, and in under a kilobyte minified.
+Make your blog post look great, and just above a kilobyte minified.
 
 Download/Install
 ----------------
