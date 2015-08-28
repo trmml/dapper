@@ -1,7 +1,7 @@
 dapper
 ======
 
-Make your blog post look great, and just above a kilobyte minified.
+Make your blog post look great, and in only ~1KB minified.
 
 Download/Install
 ----------------
@@ -15,31 +15,32 @@ bower install dapper.css
 Clone/fork the repo through git
 
 ```
-git clone git@github.com:probablyjosh/dapper.git
+git clone git@github.com:trommel/dapper.git
 ```
 
-or [download the zip](https://github.com/probablyjosh/dapper/archive/master.zip)
+or [download the zip](https://github.com/trommel/dapper/archive/master.zip)
 
 
 Usage
 =====
 
-Include dapper.css in your HTML and then wrap your blog post or whatever
-in divs or something. Make sure to apply the `dapper` class to them.
+Include dapper.css in your HTML and then wrap your code in divs with the `dapper` class.
 
 ```html
-<head>
-  <link rel="stylesheet" href="path/to/dapper.css">
-</head>
-<body>
-  <div class="dapper">
-    <h1>Why I Need More Sleep</h1>
-    <h2>and why that'll never happen</h2>
-    <p>
-      In animals, sleep is a naturally recurring state characterized by altered consciousness...
-    </p>
-  </div>
-</body>
+<html lang="en">
+	<head>
+	  <link rel="stylesheet" href="path/to/dapper.css">
+	</head>
+	<body>
+	  <div class="dapper">
+	    <h1>Why I Need More Sleep</h1>
+	    <h2>and why that'll never happen</h2>
+	    <p>
+	      In animals, sleep is a naturally recurring state characterized by altered consciousness...
+	    </p>
+	  </div>
+	</body>
+</html>
 ```
 
 License
